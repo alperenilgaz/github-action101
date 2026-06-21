@@ -73,8 +73,8 @@
 </head>
 <body>
     <div class="card">
-        <h1>DevOps101 <span class="badge">PR Korumasi</span></h1>
-        <p class="subtitle">Branch protection testi — sadece PR ile main'e merge</p>
+        <h1>DevOps101 <span class="badge">Main Tarafi</span></h1>
+        <p class="subtitle">Conflict denemesi — bu metin main branch'ten geldi</p>
 
         <form class="add" action="{{ route('todos.store') }}" method="POST">
             @csrf

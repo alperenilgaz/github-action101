@@ -18,7 +18,7 @@ class TodoTest extends TestCase
 
         $response->assertOk();
         $response->assertSee('DevOps101');
-        $response->assertSee('PR Korumasi');
+        $response->assertSee('Main Tarafi');
         $response->assertSee('CI pipeline kur');
     }
 
