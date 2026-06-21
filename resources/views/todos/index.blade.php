@@ -73,8 +73,8 @@
 </head>
 <body>
     <div class="card">
-        <h1>DevOps101 <span class="badge">CI/CD Demo</span></h1>
-        <p class="subtitle">GitHub Actions ile test edilecek basit todo uygulamasi</p>
+        <h1>DevOps101 <span class="badge">PR Korumasi</span></h1>
+        <p class="subtitle">Branch protection testi — sadece PR ile main'e merge</p>
 
         <form class="add" action="{{ route('todos.store') }}" method="POST">
             @csrf
